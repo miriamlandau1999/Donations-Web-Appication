@@ -1,0 +1,6 @@
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\bin\Debug\DonationsWebApplication.data.dll.config
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\bin\Debug\DonationsWebApplication.data.dll
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\bin\Debug\DonationsWebApplication.data.pdb
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\obj\Debug\DonationsWebApplication.data.csprojResolveAssemblyReference.cache
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\obj\Debug\DonationsWebApplication.data.dll
+C:\Users\miriam\Google Drive\Visual Studio 2015\Projects\DonationsWebApplication\DonationsWebApplication.data\obj\Debug\DonationsWebApplication.data.pdb

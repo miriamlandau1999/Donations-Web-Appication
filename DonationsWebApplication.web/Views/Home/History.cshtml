@@ -1,0 +1,34 @@
+﻿@using DonationsWebApplication.data
+@model DonationsWebApplication.web.Models.HstoryViewModel
+
+<table class="table table-bordered table-striped table-hover">
+    <tr>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Status</th>
+    </tr>
+
+    @foreach (Application a in Model.Applications)
+    {
+        <tr>
+            <td>@a.Date.ToShortDateString()</td>
+            <td>@a.Amount</td>
+            <td>@a.Description</td>
+            <td>@a.Category.Name</td>
+            @if (a.Approved == true)
+            {
+                <td>Approved</td>
+            }
+            else if (a.Approved == false)
+            {
+                <td>Rejected</td>
+            }
+            else
+            {
+                <td>Pending</td>
+            }
+      </tr>
+    }
+</table>

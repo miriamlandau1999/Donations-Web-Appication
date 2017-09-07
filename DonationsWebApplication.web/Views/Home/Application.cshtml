@@ -1,0 +1,23 @@
+﻿@using DonationsWebApplication.data
+@model DonationsWebApplication.web.Models.ApplicationViewModel
+
+<form method="post" action="/home/application">
+    <select class="category" name="CategoryId">
+        @foreach (Category c in Model.Categories)
+        {
+            <option value="@c.Id">@c.Name</option>
+        }        
+    </select>
+    <br />
+    <br />
+    <input type="text" class="form-control amount" name="amount" placeholder="Amount" />
+    <br />
+    <textarea  name="description" rows="5" class="form-control" placeholder="Description"></textarea>
+    <br />
+    <br />
+    <button class="btn btn-primary submit" disabled>Submit</button>
+</form>
+
+@section scripts{
+    <script src="~/Scripts/Application.js"></script>
+}
